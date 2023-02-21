@@ -19,6 +19,11 @@ public class EmployeeController {
         return employeeMainService.saveEmployee(employee);
     }
 
+    @GetMapping("/")
+    public String display(){
+        return "Hello from Azure App Service (in the staging slot)!";
+    }
+
     @GetMapping("/findByID/{id}")
     public Optional<Employee> findById(@PathVariable Integer id){
         return employeeMainService.findById(id);
