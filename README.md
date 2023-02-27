@@ -40,7 +40,7 @@ The findByEmployeeId method returns an Optional<Employee> object, which represen
 The `@Param("id")` annotation is used to specify the value of the id parameter in the query.
 
 Note that in this query, Employee is the entity name, not the table name. Spring Data uses the entity name to generate the SQL query. If you want to use a custom table name, you can specify it in the `@Table` annotation on the Employee entity class.</p>
-         </details>
+</details>
 
 - - - -
 #### Request
