@@ -1,6 +1,4 @@
----
-layout: home 
----
+
 # Spring Boot with Azure Sql
 
 ```java
