@@ -1,0 +1,9 @@
+# Site settings
+title: Azure SQL with Spring Boot
+author:
+  name: Uday Kumar 
+  email: banda.uday.kumar@gmail.com
+description: "This site explains how to connect Azure SQL with Spring Boot Application"
+
+# Build settings
+remote_theme: jekyll/minima
