@@ -24,11 +24,11 @@ public class Employee {
     @Query("SELECT e FROM Employee e WHERE e.id = :id")
     Optional<Employee> findByEmployeeId(@Param("id") Integer id);
 ```
-<details>
-           <summary>Explanation</summary>
-           <p>
 
-The `@Query` annotation is used to define a custom query in a Spring Data repository. In the example you provided, the query selects an Employee entity by its id field.
+Explanation
+
+
+The `@Query` annotation is used to define a custom query in a Spring Data repository.
 
 Here's a breakdown of what the query does:
 
@@ -40,7 +40,7 @@ The findByEmployeeId method returns an Optional<Employee> object, which represen
 The `@Param("id")` annotation is used to specify the value of the id parameter in the query.
 
 Note that in this query, Employee is the entity name, not the table name. Spring Data uses the entity name to generate the SQL query. If you want to use a custom table name, you can specify it in the `@Table` annotation on the Employee entity class.</p>
-</details>
+
 
 - - - -
 #### Request
